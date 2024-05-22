@@ -9,7 +9,7 @@ using namespace std;
  Intuition: A sliding window approach
  using map
 
- Time-complexity: O(n)
+ Time-complexity: O(nlogn)
  Space-complexity: O(n)
 */
 
