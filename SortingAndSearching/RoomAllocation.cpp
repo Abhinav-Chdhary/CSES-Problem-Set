@@ -5,6 +5,15 @@
 
 using namespace std;
 
+/*
+ Intuition: sort according to arrival times
+ Then take a min heap of rooms with the time at which
+ they will be available
+
+ Time-complexity: O(nlogn)
+ Space-complexity: O(1)
+*/
+
 static bool cmp(const vector<int> &a, const vector<int> &b)
 {
     return a[0] < b[0];
